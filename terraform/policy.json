@@ -9,7 +9,7 @@
         "s3:GetObject"
       ],
       "Resource": [
-        "arn:aws:s3:::cresval-lp/*"
+        "arn:aws:s3:::la-plumbing-lp/*"
       ]
     }
   ]

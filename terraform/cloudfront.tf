@@ -1,5 +1,5 @@
 locals {
-  s3_origin_id = "cresval-lp"
+  s3_origin_id = "la-plumbing-lp"
 }
 
 resource "aws_cloudfront_origin_access_identity" "origin_id" {
@@ -103,6 +103,6 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
 # Load the certificate
 data "aws_acm_certificate" "c" {
-  domain   = "*.cresval.co"
+  domain   = "*.laplumbing.co"
   statuses = ["ISSUED"]
 }

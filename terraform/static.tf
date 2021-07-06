@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "cresval-lp"
+  bucket = "la-plumbing-lp"
   acl    = "public-read"
   policy = file("policy.json")
 

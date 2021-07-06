@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "rsarnik-terraform-state"
-    key    = "cresval-lp"
+    bucket = "busqandote-terraform-state"
+    key    = "la-plumbing-lp"
     region = "us-east-1"
   }
 }
